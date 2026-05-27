@@ -9,7 +9,7 @@ for n in range(1,1300):
         G[n]=G[n- 1] + G[n - 2] + n * n - int(G[n-1]*0.9)
 s=F[G[17]]
 print(s)
-summ=10
+summ=0
 for i in str(s):
     summ+=int(i)
 print(oct(summ)[2:])
