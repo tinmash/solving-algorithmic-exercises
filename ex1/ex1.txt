@@ -1,0 +1,30 @@
+1. The program receives a four-digit number (N) as input. Using this number, it constructs a new number (R) in the following way:
+The program calculates the sums of adjacent digit pairs: the first and second digits, the second and third digits, and the third and fourth digits. The smallest of the three sums is discarded, and the remaining two sums are written in ascending order to form the number (R).
+For example, for the number 4271, the program produces the number 89: (4 + 2 = 6), (2 + 7 = 9), (7 + 1 = 8). The smallest sum, 6, is discarded, and the remaining sums, 8 and 9, form the number 89.
+Determine the largest number (N) for which the program outputs 1014 after processing.
+
+2. The algorithm receives a natural number (N > 1) as input and constructs a new number (R) according to the following rules:
+
+1. The sum of all even digits in the decimal representation of (N) is calculated. If there are no even digits, the sum is considered equal to zero.
+2. The sum of the digits located in even positions in the decimal representation of (N) without leading zeros is calculated. Positions are counted from left to right, starting from 1. If the number consists of only one digit (there are no digits in even positions), the sum is considered equal to zero.
+3. The result of the algorithm is the absolute value of the difference between the two sums obtained.
+
+Example:
+Given (N = 2021), the algorithm works as follows:
+1. The even digits are 2, 0, and 2, and their sum is 4.
+2. The digits in even positions are 0 and 1, and their sum is 1.
+3. The absolute value of the difference between the sums is 3. Therefore, (R = 3).
+
+Determine the smallest value of (N) for which the algorithm produces (R = 15).
+
+
+3. The algorithm receives a natural number (N) as input. Using this number, it constructs a new number (R) according to the following rules:
+
+1. The base-4 representation of the number (N) is constructed.
+2. This representation is then processed according to the following rule:
+   a) if the representation contains more than two digits equal to 3, a 0 is appended to the right;
+   b) otherwise, the remainder obtained by dividing the number of digits equal to 3 by 4 is appended to the right.
+The resulting representation is considered the base-4 representation of the number (R).
+3. The result is converted to decimal notation and displayed on the screen.
+
+Determine the smallest number (N) for which the algorithm produces a number (R) greater than 461.

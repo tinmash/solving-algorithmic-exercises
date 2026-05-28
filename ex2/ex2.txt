@@ -1,0 +1,23 @@
+1.Let DIV(n, m) denote the statement “the natural number n is divisible by the natural number m without remainder. For what largest natural number A is the formula
+(DIV(x, 48) ∨ DIV(x, 96)) → DIV(x, A)
+identically true, that is, equal to 1 for every natural value of the variable x?
+
+2.  Let DIV(n, m) denote the statement “the natural number n is divisible by the natural number m without remainder.
+For what smallest natural number A is the formula
+(DIV(x, A) ∧ DIV(x, 16)) → (¬DIV(x, 16) ∨ DIV(x, 111))
+identically true, that is, equal to 1 for every natural value of the variable x?
+
+3. The expression n & m means that a bitwise conjunction is first performed between the numbers n and m, and then all 0s in the resulting number are replaced with 1s, while all 1s are replaced with 0s.
+For what smallest three-digit natural number A is the formula
+(x & 51 = 0) → ((A & 29 ≠ 0) → (y & x = 0))
+identically true, that is, equal to 1 for all non-negative values of the variables x and y?
+
+4. On the number line, the segment A is [3; 105]; B is the set of all natural divisors of the number 206, except 1 and 206 itself; C is the set of all natural divisors of some natural number y, except 1 and y itself (the number y is such that the set C is non-empty).
+State the smallest possible value of y for which the expression
+(x ∈ C) → ((x ∈ A) ∧ ¬(x ∈ B))
+is true, that is, equal to 1 for all values of the variable x.
+
+5. Let Inf(n, m) denote the statement “the sum of the divisors of a natural number n is divisible by the product of the natural numbers n and m.”
+Find the sum of the first 15 natural values of A for which the formula
+(Inf(x, A) ∧ ¬Inf(x, 80)) → (¬Inf(x, 27) ∨ Inf(x, 40))
+is identically true, that is, equal to 1 for all natural values of the variable x.
