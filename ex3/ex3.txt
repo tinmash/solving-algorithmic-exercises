@@ -1,0 +1,10 @@
+1.The subnet mask is 255.255.255.128, and the IP address of a host in the network is 124.101.22.62.
+Using these data, determine the number of addresses in the network for which the sum of the 3rd and 4th octets in decimal notation is greater than 140.
+
+2.The subnet mask is 255.255.240.0, and the IP address of a host in the network is 174.101.64.62.
+Using these data, it is necessary to:
+1. Find the number of addresses in the network for which:
+a) the sum of all digits in the binary representation of the 3rd and 4th octets of the IP address is even;
+b) the sum of the values of the 3rd and 4th octets in decimal notation is odd.
+2. Make sure that in each octet of the IP address written in decimal notation there are no repeated digits.
+Write down the integer number of addresses that satisfy conditions 1 and 2.
