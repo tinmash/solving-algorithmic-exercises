@@ -1,0 +1,12 @@
+1.A text file contains lines of varying length, each consisting of digits from 0 to 9 and the operation symbols "+", "-", and "/" (addition, subtraction, and division).
+
+Determine the line number of the line that represents a valid arithmetic expression with numbers written in the decimal numeral system and has the maximum value. Note that line numbering starts from 1. If there are several such lines, output the number of the last suitable line.
+
+It should be noted that the file does not contain numbers with leading zeros.
+
+Note: in this problem, a valid arithmetic expression is a string representation of a mathematical expression that can be evaluated directly using the `eval()` function without any modifications to the string.
+
+
+2.A text file consists of at most (10^6) characters X, Y, and Z.
+
+Determine the maximum number of consecutive characters in which the character Y occurs no more than once.
